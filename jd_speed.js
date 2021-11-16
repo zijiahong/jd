@@ -108,6 +108,7 @@ function jDSpeedUp(sourceId, doubleKey) {
           console.log('京东天天-加速: 签到接口请求失败 ‼️‼️');
         } else {
           if (data) {
+            console.log(data)
             let res = JSON.parse(data);
             if (!sourceId) {
               console.log(`\n天天加速任务进行中`);
