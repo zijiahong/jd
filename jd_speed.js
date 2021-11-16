@@ -114,6 +114,7 @@ function jDSpeedUp(sourceId, doubleKey) {
             } else {
               console.log("\n" + "天天加速-开始本次任务 ");
             }
+            console.log("============res.info=============",res.info)
             if (res.info.isLogin === 1) {
               subTitle = `【奖励】${res.data.beans_num}京豆`;
               if (res.data.task_status === 0) {
